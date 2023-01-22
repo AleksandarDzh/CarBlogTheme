@@ -18,5 +18,19 @@ _Custom Post Type UI: Version 1.13.4_
 
 _Advanced Custom Fields: Version 6.0.6_
 
-# How it looks #
+# How does it look? #
+## Index Page ##
 
+<img src="index_page.png" width="800" height="450">
+
+## Archive Page ##
+
+<img src="archive_page.png" width="800" height="450">
+
+## Car Single Page ##
+
+<img src="car_single_page.png" width="800" height="450">
+
+## Case Study Article Page ##
+
+<img src="case_study_article_page.png" width="800" height="450">
