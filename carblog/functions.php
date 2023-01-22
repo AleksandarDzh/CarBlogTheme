@@ -57,6 +57,7 @@ function do_filtering($query)
 		}
 	}
 
+	$query->set('posts_per_page', 5);
 	$query->set( 'tax_query', $tax_query );
 }
 add_action( 'pre_get_posts', 'do_filtering');
@@ -112,7 +113,7 @@ function get_request_params(): array
 	$request_params = array();
 	foreach ($_GET as $key => $value)
 	{
-		if (!in_array($key, array('car_brand', 'car_engine')))
+		if (!in_array($key, array('car_brand', 'engine_type')))
 		{
 			continue;
 		}
