@@ -9,7 +9,7 @@ This is a basic custom WordPress theme compatible with WordPress 6 that supports
 ● Custom Taxonomies: car_brand, engine_type, car_category, target_audience, study_articles
 
 ● Cars Archive page that lists 5 cars per page and supports cars
-filtering by custom fields
+filtering by custom taxonomies
 
 ● Car Single Page that includes links to all case studies belonging to a Car
 
