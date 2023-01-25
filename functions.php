@@ -1,5 +1,5 @@
 <?php
-
+require_once 'custom_post_types_registration.php';
 function include_featured_image()
 {
 	// add fetured image support
@@ -128,5 +128,3 @@ function get_request_params(): array
 	}
 	return $request_params;
 }
-
-require_once 'custom_post_types_registration.php';
