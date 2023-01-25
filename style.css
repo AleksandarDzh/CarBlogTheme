@@ -1,0 +1,44 @@
+/*
+ Theme Name: Car Blog Theme 
+ Version: 1.0
+ Author: ADzhrekos
+ */
+
+.car a img {
+    width: 100% !important;
+    height: auto !important;
+}
+.navigation {
+    text-align: right;
+}
+a.btn.btn-secondary.btn-sm {
+    float: left;
+    margin-top: 20px;
+}
+body {
+        padding: 50px;
+        background: #9cb07d !important;
+}
+body > .container {
+        background: rgba(255,255,255,0.7);
+    padding: 20px;
+}
+.car a {
+    font-size: 1.2rem;
+}
+.facet-group a {
+    display: block;
+}
+ul {
+    list-style: none;
+    padding-left: 20px !important;
+}
+figure.wp-block-image.size-full {
+    text-align: center;
+}
+ul#menu-header {
+    display: flex;
+}
+.menu li {
+    margin-right: 20px;
+}
