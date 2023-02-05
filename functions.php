@@ -1,5 +1,6 @@
 <?php
-require_once 'custom_post_types_registration.php';
+require_once 'custom_post_types' . DIRECTORY_SEPARATOR . 'registration.php';
+
 function include_featured_image()
 {
 	// add fetured image support
