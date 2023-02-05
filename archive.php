@@ -60,38 +60,3 @@
 
 <div class="navigation"><p><?php posts_nav_link(); ?></p></div>
 <?php get_footer()?>
-
-
-<?php
-
-/**
- *
- * @param  string $taxonomy - the name of the taxonomy to be filtered
- * @param  string $slug
- */
-function compose_url(string $taxonomy, string $slug)
-{
-	$slug = esc_attr($slug);
-
-	$url = "?{$taxonomy}[]=" . esc_attr($slug);
-
-	foreach (get_request_params() as $get_by => $args)
-	{
-		// allows selection of both: several or one (brand/engines)
-		//
-		if (in_array($slug, $args))
-		{
-			continue;
-		}
-
-		foreach ($args as $arg)
-		{
-			if ($arg == $slug)
-			{
-				continue;
-			}
-			$url .= "&{$get_by}[]=" .  esc_attr($arg);
-		}
-	}
-	echo $url;
-}
